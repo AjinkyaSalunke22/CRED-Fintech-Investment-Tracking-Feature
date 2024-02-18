@@ -54,9 +54,13 @@ To run the application locally, follow these steps:
 ## Requirements
 
 Django==5.0.2
+
 psycopg2==2.9.9
+
 postgress==16.2
+
 bootstrap==v5.3
+
 
 ## Usage
 
