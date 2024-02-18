@@ -81,4 +81,4 @@ This project is licensed under the MIT License. For more details, refer to the [
 
 ## Stay Connected
 
-Stay updated with the latest news, updates, and features by following us on [Twitter](https://twitter.com/cred_fintech) and [LinkedIn](https://www.linkedin.com/company/cred-fintech). Join our community and be part of the journey towards financial empowerment!
+Stay updated with the latest news, updates, and features by following us on [LinkedIn](https://www.linkedin.com/in/ajinkyasalunke22). Join our community and be part of the journey towards financial empowerment!
