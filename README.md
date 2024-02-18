@@ -23,17 +23,17 @@ To run the application locally, follow these steps:
 
 1. Clone this repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/cred-fintech-web-app.git
+   git clone https://github.com/AjinkyaSalunke22/CRED-Fintech-Investment-Tracking-Feature.git
    ```
 
 2. Navigate to the project directory.
    ```bash
-   cd cred-fintech-web-app
+   cd CRED
    ```
 
 3. Install the dependencies using pip.
    ```bash
-   pip install -r requirements.txt
+   please read requirements
    ```
 
 4. Configure the PostgreSQL database settings in `settings.py`.
@@ -48,7 +48,15 @@ To run the application locally, follow these steps:
    python manage.py runserver
    ```
 
-7. Access the application by visiting `http://localhost:8000` in your web browser.
+7. Access the application by visiting `http://localhost:8000/add_stock` in your web browser.
+
+
+## Requirements
+
+Django==5.0.2
+psycopg2==2.9.9
+postgress==16.2
+bootstrap==v5.3
 
 ## Usage
 
