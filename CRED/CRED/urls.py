@@ -16,9 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from cred_app.views import add_stock
+from cred_app.views import add_stock, retrive
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('add_stock/', add_stock, name='add_stock')
+    path('add_stock/', add_stock, name='add_stock'),
+    path('retrive/', retrive, name='retrive')
+
 ]
