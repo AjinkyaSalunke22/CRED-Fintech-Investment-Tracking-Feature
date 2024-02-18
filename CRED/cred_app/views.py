@@ -1,3 +1,7 @@
+# Author: Ajinkya Salunke 
+# Date: 19 Feb 2024
+
+
 from random import randint
 from django.shortcuts import redirect, render
 from cred_app.models import Stocks
@@ -31,7 +35,7 @@ def retrive(request):
     market_price = randint(100, 1000)
 
     for stock in qs:
-        stock.difference = stock.stock_price - market_price
+        stock.difference = market_price - stock.stock_price
 
     context = {
         'stock_data': qs,

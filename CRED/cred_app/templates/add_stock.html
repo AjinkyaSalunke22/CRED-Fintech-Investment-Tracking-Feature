@@ -23,10 +23,12 @@
         }
 
         h1{
-          margin: 50px;
+          margin: 10px;
           text-align: center;
           color: green;
         }
+
+
     </style>
 </head>
   <body>
@@ -45,6 +47,7 @@
       
 
       <div class="stocks">
+        <button type="button" class=" btn text-white btn-outline-secondary"><a class="text-dark" href="/retrive/">Show portfolio</a></button>
         <form action="/add_stock/" method="POST">
         {% csrf_token %}
         <div class="row">
