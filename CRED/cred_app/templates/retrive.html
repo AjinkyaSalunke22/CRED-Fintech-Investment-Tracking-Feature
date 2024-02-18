@@ -63,8 +63,8 @@
                 <th scope="row">{{stock.id}}</th>
                 <td>{{stock.stock_name}}</td>
                 <td>{{stock.stock_price}}</td>
-                <td>@mdo</td>
-                <td>@mdo</td>
+                <td>{{market_price}}</td>
+                <td>{{ stock.difference }}</td>
                 <td> <a href="/delete/{{stock.id}}/"><i class="fa fa-caret-square-o-left" style="font-size:18px;color:red"></i><i class="fa fa-caret-square-o-right" style="font-size:18px;color:green"></i></a> </td>
               {% endfor %}
             </tbody>
