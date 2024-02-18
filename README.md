@@ -7,6 +7,7 @@ Welcome to the CRED Fintech Web App - Stock Portfolio Tracker, your comprehensiv
 ## Check Out Our Demo!
 
 Take a sneak peek at our application's interface and functionalities by visiting our demo
+
 https://github.com/AjinkyaSalunke22/CRED-Fintech-Investment-Tracking-Feature/assets/114003751/d14b18db-faac-46c3-b8b2-368ae109d63e
 
 ## Key Features
